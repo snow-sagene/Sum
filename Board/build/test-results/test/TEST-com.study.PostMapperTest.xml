@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.study.PostMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-19T06:03:52" hostname="FLEKKE" time="0.904">
+  <properties/>
+  <testcase name="findById()" classname="com.study.PostMapperTest" time="0.904"/>
+  <system-out><![CDATA[15:03:48.535 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [PostMapperTest]: using SpringBootContextLoader
+15:03:48.544 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.study.PostMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:03:48.545 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.study.PostMapperTest]: PostMapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:03:48.588 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [PostMapperTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+15:03:48.716 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [C:\Users\vtr04\OneDrive\바탕 화면\웹개발\숨고\새 폴더\Board\Board\build\classes\java\main\com\study\BoardApplication.class]
+15:03:48.718 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.study.BoardApplication for test class com.study.PostMapperTest
+15:03:48.884 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.observation.MicrometerObservationRegistryTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: io.micrometer.context.ThreadLocalAccessor. MicrometerObservationRegistryTestExecutionListener requires io.micrometer:micrometer-observation:1.10.8 or higher and io.micrometer:context-propagation:1.0.3 or higher.
+15:03:48.902 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [PostMapperTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+15:03:48.904 [Test worker] DEBUG org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener -- Before test class: class [PostMapperTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.12)
+
+2023-11-19T15:03:49.321+09:00  INFO 20328 --- [    Test worker] com.study.PostMapperTest                 : Starting PostMapperTest using Java 18.0.2.1 with PID 20328 (started by vtr04 in C:\Users\vtr04\OneDrive\바탕 화면\웹개발\숨고\새 폴더\Board\Board)
+2023-11-19T15:03:49.324+09:00  INFO 20328 --- [    Test worker] com.study.PostMapperTest                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-19T15:03:50.745+09:00  INFO 20328 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-19T15:03:50.944+09:00  INFO 20328 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@441fbe89
+2023-11-19T15:03:50.949+09:00  INFO 20328 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-19T15:03:52.178+09:00  INFO 20328 --- [    Test worker] com.study.PostMapperTest                 : Started PostMapperTest in 3.197 seconds (process running for 5.257)
+null]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
